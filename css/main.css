@@ -12,6 +12,39 @@ body {
     height: 100vh; /* Set the body's height to 100% of the viewport height */
 }
 
+/* Style the navbar */
+.navbar {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Place it at the top of the page */
+    left: 0; /* Optionally, align it to the left */
+    width: 100%; /* Make it full-width */
+    background-color: #0897fd;
+    padding: 25px 0; /* Add padding for spacing */
+}
+
+/* Style the navigation links */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center-align the links */
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style the links on hover */
+.navbar a:hover {
+    text-decoration: underline;
+}
+
 .parent-container {
     display: flex;
     height: 100vh; /* Set the body's height to 100% of the viewport height */
