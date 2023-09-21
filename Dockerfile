@@ -58,5 +58,8 @@ USER appuser
 # Copy the executable from the "build" stage.
 COPY --from=build /bin/hello.sh /bin/
 
+# Expose the port that the application listens on.
+EXPOSE 3000
+
 # What the container should run when it is started.
 ENTRYPOINT [ "/bin/hello.sh" ]
