@@ -11,4 +11,4 @@ This is a simple page that displays "Hello BeyondMD!" with some basic css stylyi
 ## Run this app on Docker
 
 -  `docker compose up --build`
--  navigate to the http://localhost:8000
+-  navigate to the http://localhost:8080
